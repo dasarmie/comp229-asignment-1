@@ -1,0 +1,30 @@
+.images-projects {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 0px;
+    list-style: none;
+    align-items: center;
+    padding: 0 30px;
+    float: left;
+    position: fixed;
+    top: 20%;
+    left: 7%;
+    right: 0%;
+}
+
+.text-projects {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+    list-style: none;
+    align-items: center;
+    padding: 0 30px;
+    float: left;
+    position: fixed;
+    top: 60%;
+    left: 7%;
+    right: 7%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
