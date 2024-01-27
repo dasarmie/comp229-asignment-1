@@ -1,0 +1,26 @@
+.photo img {
+    width: 300px;
+    float: left;
+    position: fixed;
+    top: 20%;
+    left: 10%;
+  }
+
+.information {
+  float: left;
+  position: fixed;
+  top: 60%;
+  left: 12%;
+  text-align: center;
+}
+
+.profile {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  line-height: 1;
+  text-align: justify;
+  position: fixed;
+  top: 26%;
+  left: 35%;
+  right: 8%;
+}

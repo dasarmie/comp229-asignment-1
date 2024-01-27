@@ -1,0 +1,42 @@
+.WelcomeContainer {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    opacity: 0.7;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+    position: fixed;
+    top: 20%;
+    left: 7%;
+    right: 7%;
+  }
+  
+  .WelcomeMessage {
+    font-size: 23px;
+    line-height: 1;
+  }
+  
+  .ButtonsContainer {
+    position: fixed;
+    top: 60%;
+    left: 15%;
+    right: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 80px;
+    list-style: none;
+  }
+  
+  .nav-link-button {
+    list-style: none;
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 0.7rem 5rem;
+    font-size: 15px;
+    white-space: nowrap;
+    background: #333;
+    background: linear-gradient(black, orange);
+    opacity: 0.8;
+    border-radius: 13px;
+  }

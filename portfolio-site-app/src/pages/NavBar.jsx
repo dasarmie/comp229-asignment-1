@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faHome, faUser, faFolder, faCogs, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import "../App.css";
-import ds_logo from "../assets/img/logoDS.png";
+import "../styles/NavBar.css";
+import ds_logo from "../img/logoDS.png";
 
 class NavBar extends Component {
     render () {
