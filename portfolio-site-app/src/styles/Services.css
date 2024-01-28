@@ -1,0 +1,27 @@
+.images-services {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 70px;
+    float: left;
+    position: fixed;
+    top: 20%;
+    left: 12%;
+    right: 5%;
+}
+
+.text-services {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 200px;
+    float: left;
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    right: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: center;
+}

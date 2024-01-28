@@ -1,9 +1,27 @@
-const Services = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+import { Component } from "react";
+import dataArchitecture from "../img/DAR.png";
+import dataSteward from "../img/DS.png";
+import dataEngineer from "../img/DE.png";
+import dataAnalyst from "../img/DA.png"
+import "../styles/Services.css";
+
+class Services extends Component {
+    render () {
+        return (
+            <><div className="images-services">
+                <img src={dataEngineer} alt="segmentation" width={250} height={200} />
+                <img src={dataAnalyst} alt="cloud" width={250} height={200} />
+                <img src={dataArchitecture} alt="leadership" width={250} height={200} />
+                <img src={dataSteward} alt="leadership" width={250} height={200} />
+            </div>
+            <div className="text-services">
+                <text> Ingest, Design, Develop <p></p> and Transform </text>
+                <text> Analysis and visualization <p></p> of data </text>
+                <text> Build and deploy data <p></p> architectures </text>
+                <text> Data quality and clean </text>
+            </div></>
+        )
+    }
 }
 
 export default Services;

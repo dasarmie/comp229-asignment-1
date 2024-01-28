@@ -1,6 +1,21 @@
 import { Link } from "react-router-dom";
 import { Component } from "react";
 import photoDS from "../img/profilePhoto.png";
+import python from "../img/python.png";
+import javascript from "../img/javascript.png";
+import java from "../img/java.png";
+import react from "../img/react.png";
+import mongo from "../img/MongoDB.png";
+import loadingLogo from "../img/loading.png";
+import sql from "../img/sql.png";
+import tsql from "../img/sql_language.png";
+import spark from "../img/spark.png";
+import azure from "../img/azure.png";
+import databricks from "../img/databricks.png";
+import git from "../img/git.png";
+import db2 from "../img/db2.png";
+import postgre from "../img/Postgresql.png";
+
 import "../styles/About.css";
 
 class About extends Component {
@@ -23,6 +38,22 @@ class About extends Component {
                 </p>
                 Additionally, I'm experience as a Data team lead with capabilities for monitoring and controlling projects, requirements gathering, and problem-solving. Passionate
                 about building strong relationships, working as a team, and strengthening continuos learning focused on efficiency, quality, and improvement.
+            </div>
+            <div>
+            <img src={python} alt="python" style={{width: 50, height: 50, position: "fixed", top: 450, left: 630}} />
+            <img src={sql} alt="python" style={{width: 70, height: 70, position: "fixed", top: 450, left: 700}} />
+            <img src={tsql} alt="python" style={{width: 100, height: 50, position: "fixed", top: 530, left: 690}} />
+            <img src={spark} alt="python" style={{width: 100, height: 50, position: "fixed", top: 510, left: 580}} />
+            <img src={azure} alt="python" style={{width: 50, height: 50, position: "fixed", top: 570, left: 620}} />
+            <img src={databricks} alt="python" style={{width: 100, height: 90, position: "fixed", top: 580, left: 690}} />
+            <img src={git} alt="python" style={{width: 50, height: 50, position: "fixed", top: 520, left: 800}} />
+            <img src={db2} alt="python" style={{width: 80, height: 60, position: "fixed", top: 450, left: 770}} />
+            <img src={postgre} alt="python" style={{width: 70, height: 60, position: "fixed", top: 580, left: 780}} />
+            <img src={react} alt="python" style={{width: 70, height: 60, position: "fixed", top: 450, right: 380}} />
+            <img src={mongo} alt="python" style={{width: 110, height: 50, position: "fixed", top: 450, right: 250}} />
+            <img src={loadingLogo} alt="python" style={{width: 200, height: 200, position: "fixed", top: 540, right: 240}} /> 
+            <img src={javascript} alt="python" style={{width: 150, height: 90, position: "fixed", top: 510, right: 230}} />
+            <img src={java} alt="python" style={{width: 140, height: 100, position: "fixed", top: 500, right: 320}} />
             </div>
             </>
         )
