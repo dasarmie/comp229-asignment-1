@@ -1,0 +1,50 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    font-size: 23px;
+    line-height: 1;
+    font-style: oblique;
+    font-family: "Montserrat", sans-serif;
+}
+
+.formInformation {
+    width: 540px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    background-color: #f9f9f9;
+    justify-items: center;
+}
+
+.formInformation label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formInformation input[type="text"],
+.formInformation input[type="email"],
+
+.formInformation textarea {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-content: center;
+}
+
+.link-button-home {
+    list-style: none;
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 0.7rem 5rem;
+    font-size: 15px;
+    white-space: nowrap;
+    background: #333;
+    background: linear-gradient(black, orange);
+    opacity: 0.8;
+    border-radius: 13px;
+    margin: auto;
+}

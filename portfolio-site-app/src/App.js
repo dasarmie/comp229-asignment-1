@@ -1,5 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
 import NavBar from "./pages/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -8,14 +9,14 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 import "./App.css";
-import Layout from "./pages/Layout";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="gradient: linear-gradient: blue, vh-100">
+    <div>
       <BrowserRouter>
-       <NavBar />
        <Layout />
+       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
