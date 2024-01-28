@@ -17,21 +17,25 @@ class NavBar extends Component {
                             <FontAwesomeIcon icon={faHome} /> Home
                         </Link>
                     </li>
+
                     <li class="nav-item">
                         <Link class="nav-link" to="/about">
                             <FontAwesomeIcon icon={faUser} /> About
                         </Link>
                     </li>
+
                     <li class="nav-item">
                         <Link class="nav-link" to="/projects">
                             <FontAwesomeIcon icon={faFolder} /> Projects
                         </Link>
                     </li>
+
                     <li class="nav-item">
                         <Link class="nav-link" to="/services">
                             <FontAwesomeIcon icon={faCogs} /> Services
                         </Link>
                     </li>
+                    
                     <li class="nav-item">
                         <Link className="nav-link" to="contact">
                             <FontAwesomeIcon icon={faEnvelope} /> Contact
@@ -39,8 +43,8 @@ class NavBar extends Component {
                     </li>
                 </ul>
             </div>
-        )
-    }
-}
+        );
+    };
+};
 
 export default NavBar;

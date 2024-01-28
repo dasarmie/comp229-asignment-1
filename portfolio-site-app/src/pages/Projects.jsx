@@ -1,3 +1,4 @@
+import React from "react";
 import { Component } from "react";
 import leadership from "../img/leadership.jpg";
 import segmentation from "../img/segmentation.png";
@@ -13,12 +14,12 @@ class Projects extends Component {
                 <img src={leadership} alt="leadership" width={350} height={250} />
             </div>
             <div className="text-projects">
-                <text style={{top: 450}}> Development of the customer segmentation project for the retail sector developing data engineering processes and technical leadership </text>
+                <text> Development of the customer segmentation project for the retail sector developing data engineering processes and technical leadership </text>
                 <text> Migration, centralization, and development of data projects in cloud platforms supporting these as data engineer </text>
                 <text> Develop data strategies in companies as a technical and area leader </text>
             </div></>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Projects;

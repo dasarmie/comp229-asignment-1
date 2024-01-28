@@ -1,4 +1,4 @@
-.WelcomeContainer {
+.welcome-container {
     font-family: "Montserrat", sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -12,14 +12,14 @@
     right: 7%;
   }
   
-  .WelcomeMessage {
+  .welcome-message {
     font-size: 23px;
     line-height: 1;
     font-style: oblique;
     font-family: "Montserrat", sans-serif;
   }
   
-  .ButtonsContainer {
+  .buttons-container {
     position: fixed;
     top: 60%;
     left: 15%;

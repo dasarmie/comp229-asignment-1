@@ -1,3 +1,4 @@
+import React from "react";
 import { Component } from "react";
 import dataArchitecture from "../img/DAR.png";
 import dataSteward from "../img/DS.png";
@@ -20,8 +21,8 @@ class Services extends Component {
                 <text> Build and deploy data <p></p> architectures </text>
                 <text> Data quality and clean </text>
             </div></>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Services;

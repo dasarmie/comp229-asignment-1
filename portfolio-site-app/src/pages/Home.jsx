@@ -5,8 +5,8 @@ import "../styles/Home.css";
 class Home extends Component {
     render () {
         return (
-            <><div className="WelcomeContainer">
-                <div className="WelcomeMessage">
+            <><div className="welcome-container">
+                <div className="welcome-message">
                     <p>
                         “Welcome to my virtual space!
                         <i>
@@ -21,14 +21,14 @@ class Home extends Component {
                         😎
                     </i> ”
                 </div>
-            </div><div className="ButtonsContainer">
+            </div><div className="buttons-container">
                     <Link class="nav-link-button" to="/about"> About </Link>
                     <Link class="nav-link-button" to="/projects"> Projects </Link>
                     <Link class="nav-link-button" to="/services"> Services </Link>
                     <Link class="nav-link-button" to="/contact"> Contact </Link>
             </div></>
-        )
-    }
-}
+        );
+    };
+};
 
 export default Home;

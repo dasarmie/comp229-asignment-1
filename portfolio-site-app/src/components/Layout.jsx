@@ -1,17 +1,15 @@
 import React from "react";
 import { Component } from "react";
-import "../styles/Layout.css"
+import "../styles/Layout.css";
 
 class Layout extends Component {
     render () {
         return (
-            <>
-                <div className="layout">
+            <div className="layout">
                 
-                </div>
-            </>
-        )
-    }
+            </div>
+        );
+    };
 };
 
 export default Layout;

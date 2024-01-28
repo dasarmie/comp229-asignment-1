@@ -1,36 +1,36 @@
 import React from "react";
 import { Component } from "react";
 import { Link } from "react-router-dom";
-import "../styles/Contact.css"
+import "../styles/Contact.css";
 
 class Contact extends Component {
     render () {
         return (
-            <div className="formContainer">
+            <div className="form-container">
                 <text>
                     Contact Us
-                <form className="formInformation">
+                <form className="form-information">
                     <label>
                         First Name:
-                        <input type="text" name="firstName" />
+                        <input type="text" name="first-name" />
                     </label>
                     <br />
 
                     <label>
                         Last Name:
-                        <input type="text" name="lastName" />
+                        <input type="text" name="last-name" />
                     </label>
                     <br />
 
                     <label>
                         Contact Number:
-                        <input type="text" name="contactNumber" />
+                        <input type="text" name="contact-number" />
                     </label>
                     <br />
 
                     <label>
                         Email Address:
-                        <input type="email" name="emailAddress" />
+                        <input type="email" name="email-address" />
                     </label>
                     <br />
 
@@ -44,8 +44,8 @@ class Contact extends Component {
                 </form>
                 </text>
             </div>
-        )
-    }
+        );
+    };
 };
 
 export default Contact;
