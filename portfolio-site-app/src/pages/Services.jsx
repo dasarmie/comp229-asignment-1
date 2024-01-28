@@ -9,10 +9,10 @@ class Services extends Component {
     render () {
         return (
             <><div className="images-services">
-                <img src={dataEngineer} alt="segmentation" width={250} height={200} />
-                <img src={dataAnalyst} alt="cloud" width={250} height={200} />
-                <img src={dataArchitecture} alt="leadership" width={250} height={200} />
-                <img src={dataSteward} alt="leadership" width={250} height={200} />
+                <img src={dataEngineer} alt="segmentation" width={300} height={200} />
+                <img src={dataAnalyst} alt="cloud" width={300} height={200} />
+                <img src={dataArchitecture} alt="leadership" width={300} height={200} />
+                <img src={dataSteward} alt="leadership" width={300} height={200} />
             </div>
             <div className="text-services">
                 <text> Ingest, Design, Develop <p></p> and Transform </text>

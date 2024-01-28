@@ -6,8 +6,8 @@
     float: left;
     position: fixed;
     top: 20%;
-    left: 12%;
-    right: 5%;
+    left: 8%;
+    right: 10%;
 }
 
 .text-services {
@@ -19,7 +19,7 @@
     position: fixed;
     top: 25%;
     left: 20%;
-    right: 2%;
+    right: 6%;
     font-family: "Montserrat", sans-serif;
     font-style: oblique;
     font-size: 25px;

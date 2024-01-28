@@ -8,12 +8,14 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 import "./App.css";
+import Layout from "./pages/Layout";
 
 function App() {
   return (
-    <div>
+    <div className="gradient: linear-gradient: blue, vh-100">
       <BrowserRouter>
        <NavBar />
+       <Layout />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
