@@ -1,3 +1,12 @@
+/* 
+  File: About.jsx
+  Student's Name: Diego Sarmiento
+  Student ID: 301379640
+  Date: 01/28/2024
+*/
+
+/* Component to create About's page */
+
 import { Link } from "react-router-dom";
 import { Component } from "react";
 import photoDS from "../img/profilePhoto.png";
@@ -17,13 +26,17 @@ import db2 from "../img/db2.png";
 import postgre from "../img/Postgresql.png";
 import "../styles/About.css";
 
+// Create About class
 class About extends Component {
     render () {
         return (
             <>
+            {/* Define class photo profile */}
             <div className="photo">
                 <img src={photoDS} alt="profile" />
             </div>
+
+            {/* Define class personal information */}
             <div className="information">
                 <p> Diego Sarmiento </p>
                 <p> <i>📍</i> Greater Toronto Area, ON </p>
@@ -31,6 +44,8 @@ class About extends Component {
                 <p> <i> 🌐 </i> <Link className="link-linkedin" to="https://www.linkedin.com/in/diego-armando-sarmiento-ahumada-8a5b9171/"> in/dasarmie </Link> </p>
                 <p> <i> 📄 </i> <Link className="link-resumen" to="../docs/CVDiego.pdf" target="_blank"> Resumen </Link></p>
             </div>
+
+            {/* Define class profile information */}
             <div className="profile">
                 <p>
                 I'm an administrator Engineer, specializing in finance and currently study Software Engineer - AI. I have knowledge in creating BI - Analytics solutions
@@ -39,6 +54,8 @@ class About extends Component {
                 Additionally, I'm experience as a Data team lead with capabilities for monitoring and controlling projects, requirements gathering, and problem-solving. Passionate
                 about building strong relationships, working as a team, and strengthening continuos learning focused on efficiency, quality, and improvement.
             </div>
+
+            {/* Skill's logos */}
             <div>
             <img src={python} alt="python" style={{width: 50, height: 50, position: "fixed", top: 450, left: 630}} />
             <img src={sql} alt="sql" style={{width: 70, height: 70, position: "fixed", top: 450, left: 700}} />

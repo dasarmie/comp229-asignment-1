@@ -1,3 +1,12 @@
+/* 
+  File: NavBar.jsx
+  Student's Name: Diego Sarmiento
+  Student ID: 301379640
+  Date: 01/28/2024
+*/
+
+/* Component to create Navigation Bar */
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { Component } from "react";
@@ -6,6 +15,7 @@ import {faHome, faUser, faFolder, faCogs, faEnvelope } from "@fortawesome/free-s
 import "../styles/NavBar.css";
 import ds_logo from "../img/logoDS.png";
 
+// Create NavBar class
 class NavBar extends Component {
     render () {
         return (

@@ -1,12 +1,25 @@
+/* 
+  File: Contact.jsx
+  Student's Name: Diego Sarmiento
+  Student ID: 301379640
+  Date: 01/28/2024
+*/
+
+/* Component to create Contact's page */
+
 import React from "react";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Contact.css";
 
+/* Component to create Contact's page */
+
+// Create Contact class
 class Contact extends Component {
     render () {
         return (
             <div className="form-container">
+                {/* Define class to create form input information */}
                 <text>
                     Contact Us
                 <form className="form-information">
@@ -40,6 +53,7 @@ class Contact extends Component {
                     </label>
                     <br />
 
+                    {/* Button to redirect to Home page */}
                     <Link class="link-button-home" to="/"> Submit </Link>
                 </form>
                 </text>

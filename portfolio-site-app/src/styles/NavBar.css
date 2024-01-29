@@ -1,3 +1,12 @@
+/* 
+  File: NavBar.css
+  Student's Name: Diego Sarmiento
+  Student ID: 301379640
+  Date: 01/28/2024
+*/
+
+/* Styles for Navigation Bar */
+
 .container {
     display: flex;
     justify-content: space-between;
